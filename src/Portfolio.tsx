@@ -24,7 +24,7 @@ declare module "react" {
 const Portfolio = () => {
   const projects = [
     {
-      name: "Project1",
+      name: "Culturist",
       description:
         "An app for exploring art activities and discovering coffee shops or bookstores nearby the exhibitions.",
       skills: ["UIKit", "Swift", "CoreData"],
@@ -51,15 +51,27 @@ const Portfolio = () => {
       ],
     },
     {
-      name: "Project2",
+      name: "STYLiSH",
       description:
         "With a background in the semiconductor industry transitioning to software, I bring a proven track record of delivering projects with precision and attention to detail. My approach is characterised by a self-motivated and detail-oriented mindset.",
       skills: ["UIKit", "Swift", "CoreData"],
       moreInfo: "https://example.com/project2",
       media: [
         {
+          type: "image",
+          url: Images.project2.mock1,
+        },
+        {
+          type: "image",
+          url: Images.project2.mock2,
+        },
+        {
+          type: "image",
+          url: Images.project2.mock3,
+        },
+        {
           type: "video",
-          url: "https://www.example.com/project2/video.mp4",
+          url: Images.project2.video,
         },
       ],
     },
