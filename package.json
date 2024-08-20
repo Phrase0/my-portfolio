@@ -47,7 +47,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "gh-pages": "^6.1.1",
-    "image-webpack-loader": "^8.1.0",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6"
   }

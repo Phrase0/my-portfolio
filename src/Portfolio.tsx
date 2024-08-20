@@ -1,3 +1,4 @@
+import { FaApple } from "react-icons/fa";
 import React, { useEffect, useState, useRef } from "react";
 import {
   ChevronLeft,
@@ -25,12 +26,13 @@ const Portfolio = () => {
   const projects = [
     {
       name: "Culturist",
-      description:
-        "An app for exploring art activities and discovering coffee shops or bookstores nearby the exhibitions.",
-      skills: ["UIKit", "Swift", "CoreData"],
+      description: `
+Culturist is an app designed to enhance your art exhibition experiences by helping you discover nearby coffee shops and bookstores. It offers seamless navigation, detailed venue information, and personalized recommendations to ensure you find the perfect spot to unwind after exploring art. Save your favorite locations, customize searches to suit your preferences, and receive reminders for upcoming exhibitions, making your post-exhibition relaxation both easy and enjoyable.
+`,
+
+      skills: ["ARKit", "SceneKit", "MapKit", "Firebase", "EventKit"],
       github: "https://github.com/Phrase0/Culturist",
-      moreInfo:
-        "https://www.youtube.com/watch?v=Bgmn7dxfIzg&list=RDGMEMPdLDZ-FVVWuzckFEguTm5Q",
+      appStore: "https://apps.apple.com/tw/app/culturist/id6467009064",
       media: [
         {
           type: "image",
@@ -53,9 +55,8 @@ const Portfolio = () => {
     {
       name: "STYLiSH",
       description:
-        "With a background in the semiconductor industry transitioning to software, I bring a proven track record of delivering projects with precision and attention to detail. My approach is characterised by a self-motivated and detail-oriented mindset.",
-      skills: ["UIKit", "Swift", "CoreData"],
-      moreInfo: "https://example.com/project2",
+        "STYLiSH is a comprehensive e-commerce app designed to elevate your shopping experience. It features a seamless shopping cart, easy checkout, and the ability to add items to your favorites. With third-party login options, you can quickly access your account, while the app’s store locator helps you find nearby physical stores. STYLiSH combines convenience and functionality, making your shopping journey smooth and enjoyable.",
+      skills: ["RESTful APIs", "Third-party LogIn", "CoreData", "TayPay SDK"],
       media: [
         {
           type: "image",
@@ -328,15 +329,15 @@ const Portfolio = () => {
                     GitHub
                   </a>
                 )}
-                {project.moreInfo && (
+                {project.appStore && (
                   <a
-                    href={project.moreInfo}
+                    href={project.appStore}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center"
                   >
-                    <FileText className="mr-2" size={16} />
-                    More Info
+                    <FaApple className="mr-2" size={16} />
+                    App Store
                   </a>
                 )}
               </div>
