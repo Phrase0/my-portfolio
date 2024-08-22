@@ -9,10 +9,6 @@ import {
   Github,
 } from "lucide-react";
 
-// import selfImage from "./img/selfImage.png";
-// import mockupApp1 from "./img/mockupApp-1.png";
-// import culturistVideo from "./img/culturistVideo.mp4";
-
 import Images from "./img";
 
 declare module "react" {
@@ -56,7 +52,13 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
       name: "STYLiSH",
       description:
         "STYLiSH is a comprehensive e-commerce app designed to elevate your shopping experience. It features a seamless shopping cart, easy checkout, and the ability to add items to your favorites. With third-party login options, you can quickly access your account, while the app’s store locator helps you find nearby physical stores. STYLiSH combines convenience and functionality, making your shopping journey smooth and enjoyable.",
-      skills: ["RESTful APIs", "Third-party LogIn", "CoreData", "TayPay SDK"],
+      skills: [
+        "RESTful APIs",
+        "Third-party LogIn",
+        "CoreData",
+        "TayPay SDK",
+        "Singleton",
+      ],
       media: [
         {
           type: "image",
@@ -77,40 +79,36 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
       ],
     },
     {
-      name: "Project3",
+      name: "Clima",
       description:
-        "With a background in the semiconductor industry transitioning to software, I bring a proven track record of delivering projects with precision and attention to detail. My approach is characterised by a self-motivated and detail-oriented mindset.",
-      skills: ["UIKit", "Swift", "CoreData"],
-      github: "https://github.com/example/project3",
+        "Clima is a weather app that provides accurate and up-to-date climate information, allowing users to quickly check current conditions and forecasts for any location. It features a user-friendly interface with a dark mode option for easy viewing at night, ensuring you have all the weather details you need, day or night.",
+      skills: ["JSON Parsing", "Core Location", "Networking"],
+      github: "https://github.com/Phrase0/Clima",
       media: [
         {
           type: "image",
-          url: "https://images.unsplash.com/photo-1720951235751-443bfd7eb2fb?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          url: Images.project3.mock1,
         },
         {
-          type: "image",
-          url: "https://images.unsplash.com/photo-1720951235751-443bfd7eb2fb?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          type: "video",
+          url: Images.project3.video,
         },
       ],
     },
     {
-      name: "Project4",
+      name: "FlashChat",
       description:
-        "With a background in the semiconductor industry transitioning to software, I bring a proven track record of delivering projects with precision and attention to detail. My approach is characterised by a self-motivated and detail-oriented mindset.",
-      skills: ["UIKit", "Swift", "CoreData"],
-      github: "https://github.com/example/project4",
+        "FlashChat is a straightforward chat application powered by Firebase on the backend. It enables users to engage in real-time one-on-one conversations with ease, offering a smooth and responsive chat experience. FlashChat is designed for quick and effortless communication, making it perfect for staying connected with friends.",
+      skills: ["FirebaseAuth", "Autolayout", "Cocoapod"],
+      github: "https://github.com/Phrase0/Flash-Chat",
       media: [
         {
           type: "image",
-          url: "https://images.unsplash.com/photo-1720951235751-443bfd7eb2fb?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        },
-        {
-          type: "image",
-          url: "https://images.unsplash.com/photo-1720951235751-443bfd7eb2fb?q=80&w=1946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          url: Images.project4.mock1,
         },
         {
           type: "video",
-          url: "https://www.example.com/project4/video.mp4",
+          url: Images.project4.video,
         },
       ],
     },
