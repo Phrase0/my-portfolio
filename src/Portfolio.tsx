@@ -25,7 +25,6 @@ const Portfolio = () => {
       description: `
 Culturist is an app designed to enhance your art exhibition experiences by helping you discover nearby coffee shops and bookstores. It offers seamless navigation, detailed venue information, and personalized recommendations to ensure you find the perfect spot to unwind after exploring art. Save your favorite locations, customize searches to suit your preferences, and receive reminders for upcoming exhibitions, making your post-exhibition relaxation both easy and enjoyable.
 `,
-
       skills: ["ARKit", "SceneKit", "MapKit", "Firebase", "EventKit"],
       github: "https://github.com/Phrase0/Culturist",
       appStore: "https://apps.apple.com/tw/app/culturist/id6467009064",
@@ -44,14 +43,14 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
         },
         {
           type: "video",
-          url: Images.project1.video,
+          url: "https://www.youtube.com/embed/gBbpMCp_yWQ?si=4co12o6hN7IDIcuY",
         },
       ],
     },
     {
       name: "STYLiSH",
       description:
-        "STYLiSH is a comprehensive e-commerce app designed to elevate your shopping experience. It features a seamless shopping cart, easy checkout, and the ability to add items to your favorites. With third-party login options, you can quickly access your account, while the app’s store locator helps you find nearby physical stores. STYLiSH combines convenience and functionality, making your shopping journey smooth and enjoyable.",
+        "STYLiSH is a comprehensive e-commerce app designed to elevate your shopping experience. It features a seamless shopping cart, easy checkout, and the ability to add items to your favorites. With third-party login options, you can quickly access your account, while the app's store locator helps you find nearby physical stores. STYLiSH combines convenience and functionality, making your shopping journey smooth and enjoyable.",
       skills: [
         "RESTful APIs",
         "Third-party LogIn",
@@ -74,7 +73,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
         },
         {
           type: "video",
-          url: Images.project2.video,
+          url: "https://www.youtube.com/embed/jEAEBxkDNEw?si=kZfJPrSkrcagrS2c",
         },
       ],
     },
@@ -237,7 +236,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
             ref={(el) => (sectionsRef.current[projectIndex] = el)}
             className="bg-white rounded-lg shadow-md mb-8 overflow-hidden opacity-0 transition-opacity duration-1000"
           >
-            <div className="relative aspect-ratio-27-16 overflow-hidden">
+            <div className="media-container">
               {project.media && project.media.length > 0 && (
                 <>
                   {project.media[currentMedia[projectIndex]].type ===
@@ -245,11 +244,24 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
                     <img
                       src={project.media[currentMedia[projectIndex]].url}
                       alt={`${project.name} screenshot`}
-                      className="w-full h-full object-cover"
+                      className="media-content"
                     />
+                  ) : project.media[currentMedia[projectIndex]].type ===
+                      "video" &&
+                    project.media[currentMedia[projectIndex]].url.includes(
+                      "youtube.com"
+                    ) ? (
+                    <iframe
+                      className="media-content"
+                      src={project.media[currentMedia[projectIndex]].url}
+                      title={`${project.name} YouTube video`}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    ></iframe>
                   ) : (
                     <video
-                      className="w-full h-full object-cover"
+                      className="media-content"
                       controls
                       key={project.media[currentMedia[projectIndex]].url}
                     >
@@ -363,13 +375,16 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
           opacity: 0.9;
           transform: scale(1.05);
         }
-        .aspect-ratio-27-16 {
-          position: relative;
+        .media-container {
           width: 100%;
-          padding-bottom: calc(16 / 27 * 100%);
+          height: 0;
+          padding-bottom: 59.26%; /* 27:16 ratio (16/27 * 100) */
+          position: relative;
+          overflow: hidden;
+          background-color: #000; /* Black background to avoid any visual glitches */
         }
-        .aspect-ratio-27-16 img,
-        .aspect-ratio-27-16 video {
+
+        .media-content {
           position: absolute;
           top: 0;
           left: 0;
@@ -377,6 +392,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
           height: 100%;
           object-fit: cover;
         }
+
         @keyframes fadeIn {
           from {
             opacity: 0;
