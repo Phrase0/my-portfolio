@@ -73,7 +73,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
         },
         {
           type: "video",
-          url: "https://www.youtube.com/embed/jEAEBxkDNEw?si=kZfJPrSkrcagrS2c",
+          url: "https://www.youtube.com/embed/WxQTK10pUoM?si=mZCbbBIFVg_CoyA0",
         },
       ],
     },
@@ -90,7 +90,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
         },
         {
           type: "video",
-          url: Images.project3.video,
+          url: "https://www.youtube.com/embed/Nix1U5GECq0?si=U6hEmEmoR0szU4Qq",
         },
       ],
     },
@@ -107,7 +107,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
         },
         {
           type: "video",
-          url: Images.project4.video,
+          url: "https://www.youtube.com/embed/NySMv_c0uuI?si=QUV9NHWRMTkm5NkA",
         },
       ],
     },
