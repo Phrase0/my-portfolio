@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c4423d4e.css",
-    "main.js": "/my-portfolio/static/js/main.e503c425.js",
+    "main.css": "/my-portfolio/static/css/main.be2f96a6.css",
+    "main.js": "/my-portfolio/static/js/main.b397b87c.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/culturist-3.jpg": "/my-portfolio/static/media/culturist-3.d840af1676def8b28763.jpg",
-    "static/media/culturist-2.jpg": "/my-portfolio/static/media/culturist-2.d64fe6522838cbf6e43a.jpg",
-    "static/media/stylish-1.jpg": "/my-portfolio/static/media/stylish-1.fa63ede098b29a84f580.jpg",
-    "static/media/culturist-1.jpg": "/my-portfolio/static/media/culturist-1.45ed21ac5efff33cd530.jpg",
-    "static/media/stylish-3.jpg": "/my-portfolio/static/media/stylish-3.6cdbea182359d79afb92.jpg",
-    "static/media/clima.jpg": "/my-portfolio/static/media/clima.2b55fa33dad2b45ec48c.jpg",
-    "static/media/stylish-2.jpg": "/my-portfolio/static/media/stylish-2.3ffd1900bc704bc6a814.jpg",
-    "static/media/flashChat.jpg": "/my-portfolio/static/media/flashChat.bb349864d1e151c37e9d.jpg",
+    "static/media/culturist-2.jpg": "/my-portfolio/static/media/culturist-2.989b139dc02902c44ab2.jpg",
+    "static/media/culturist-3.jpg": "/my-portfolio/static/media/culturist-3.6be8c1fcb595a5190a36.jpg",
+    "static/media/stylish-1.jpg": "/my-portfolio/static/media/stylish-1.7647fc6d4e9db98371ed.jpg",
+    "static/media/culturist-1.jpg": "/my-portfolio/static/media/culturist-1.b1fbdf02d391cbd7ac92.jpg",
+    "static/media/clima.jpg": "/my-portfolio/static/media/clima.aa3b09bbd12a1fb90173.jpg",
+    "static/media/stylish-3.jpg": "/my-portfolio/static/media/stylish-3.95e1b85abe2214da379e.jpg",
+    "static/media/stylish-2.jpg": "/my-portfolio/static/media/stylish-2.28f8719138c10eae0bf9.jpg",
+    "static/media/flashChat.jpg": "/my-portfolio/static/media/flashChat.125fcd325164117d36fb.jpg",
     "static/media/selfImage.png": "/my-portfolio/static/media/selfImage.eb5e0bf13bb056e299f5.png",
     "static/media/CV_Iris Wu (Pei-Yun, Wu).pdf": "/my-portfolio/static/media/CV_Iris Wu (Pei-Yun, Wu).8c1a434a142b5bbbddc7.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.c4423d4e.css.map": "/my-portfolio/static/css/main.c4423d4e.css.map",
-    "main.e503c425.js.map": "/my-portfolio/static/js/main.e503c425.js.map",
+    "main.be2f96a6.css.map": "/my-portfolio/static/css/main.be2f96a6.css.map",
+    "main.b397b87c.js.map": "/my-portfolio/static/js/main.b397b87c.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4423d4e.css",
-    "static/js/main.e503c425.js"
+    "static/css/main.be2f96a6.css",
+    "static/js/main.b397b87c.js"
   ]
 }
