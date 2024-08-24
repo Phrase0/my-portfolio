@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.c345783d.css",
-    "main.js": "/my-portfolio/static/js/main.0a8ff8c8.js",
+    "main.css": "/my-portfolio/static/css/main.c4423d4e.css",
+    "main.js": "/my-portfolio/static/js/main.e503c425.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/stylishVideo.mp4": "/my-portfolio/static/media/stylishVideo.5528fdd2fa57ee5a1a26.mp4",
-    "static/media/culturistVideo.mp4": "/my-portfolio/static/media/culturistVideo.5698d8817f9b9e53cb2b.mp4",
     "static/media/culturist-3.jpg": "/my-portfolio/static/media/culturist-3.d840af1676def8b28763.jpg",
     "static/media/culturist-2.jpg": "/my-portfolio/static/media/culturist-2.d64fe6522838cbf6e43a.jpg",
     "static/media/stylish-1.jpg": "/my-portfolio/static/media/stylish-1.fa63ede098b29a84f580.jpg",
@@ -12,18 +10,16 @@
     "static/media/stylish-3.jpg": "/my-portfolio/static/media/stylish-3.6cdbea182359d79afb92.jpg",
     "static/media/clima.jpg": "/my-portfolio/static/media/clima.2b55fa33dad2b45ec48c.jpg",
     "static/media/stylish-2.jpg": "/my-portfolio/static/media/stylish-2.3ffd1900bc704bc6a814.jpg",
-    "static/media/climaVideo.mp4": "/my-portfolio/static/media/climaVideo.84adf9073db797be53de.mp4",
-    "static/media/flashChatVideo.mp4": "/my-portfolio/static/media/flashChatVideo.053561486e61e3069996.mp4",
     "static/media/flashChat.jpg": "/my-portfolio/static/media/flashChat.bb349864d1e151c37e9d.jpg",
     "static/media/selfImage.png": "/my-portfolio/static/media/selfImage.eb5e0bf13bb056e299f5.png",
     "static/media/CV_Iris Wu (Pei-Yun, Wu).pdf": "/my-portfolio/static/media/CV_Iris Wu (Pei-Yun, Wu).8c1a434a142b5bbbddc7.pdf",
     "index.html": "/my-portfolio/index.html",
-    "main.c345783d.css.map": "/my-portfolio/static/css/main.c345783d.css.map",
-    "main.0a8ff8c8.js.map": "/my-portfolio/static/js/main.0a8ff8c8.js.map",
+    "main.c4423d4e.css.map": "/my-portfolio/static/css/main.c4423d4e.css.map",
+    "main.e503c425.js.map": "/my-portfolio/static/js/main.e503c425.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c345783d.css",
-    "static/js/main.0a8ff8c8.js"
+    "static/css/main.c4423d4e.css",
+    "static/js/main.e503c425.js"
   ]
 }
