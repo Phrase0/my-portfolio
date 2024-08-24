@@ -172,15 +172,26 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
       }`}
     >
       <header className="w-full max-w-3xl mb-12 text-left">
-        <div className="flex justify-between items-center mb-6">
-          <div>
-            <h1 className="text-4xl font-bold mb-2 text-red-600">Peiyun Wu</h1>
-            <p className="text-xl mb-4 text-gray-600">
+        <div className="flex flex-col md:flex-row justify-between items-center mb-6">
+          <div className="md:order-2 md:ml-6 mb-4 md:mb-0">
+            <div className="relative w-40 h-40 rounded-full overflow-hidden mx-auto md:mx-0">
+              <img
+                src={Images.profileImage}
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="md:order-1 text-center md:text-left">
+            <h1 className="text-3xl md:text-4xl font-bold mb-2 text-red-600">
+              Peiyun Wu
+            </h1>
+            <p className="text-lg md:text-xl mb-4 text-gray-600">
               iOS Developer | Agile | Creative Thinker
             </p>
-            <div className="flex space-x-3">
+            <div className="flex flex-col md:flex-row space-y-3 md:space-y-0 md:space-x-3 items-center md:items-start">
               <button
-                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center"
+                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center w-full md:w-auto"
                 onClick={() =>
                   window.open(
                     "https://www.linkedin.com/in/peiyun-iris-wu",
@@ -192,27 +203,20 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
                 LinkedIn
               </button>
               <button
-                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center"
+                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center w-full md:w-auto"
                 onClick={() => window.open("mailto:peiyunwu0911@gmail.com")}
               >
                 <Mail className="mr-2" size={16} />
                 Email
               </button>
               <button
-                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center"
+                className="btn bg-gradient-to-r from-red-500 to-orange-500 flex items-center w-full md:w-auto"
                 onClick={() => window.open(Images.cv, "_blank")}
               >
                 <FileText className="mr-2" size={16} />
                 CV
               </button>
             </div>
-          </div>
-          <div className="relative w-40 h-40 rounded-full overflow-hidden">
-            <img
-              src={Images.profileImage}
-              alt="Profile"
-              className="w-full h-full object-cover"
-            />
           </div>
         </div>
         <div className="mt-6">
@@ -392,7 +396,11 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
           height: 100%;
           object-fit: cover;
         }
-
+        @media (max-width: 768px) {
+          .btn {
+            justify-content: center;
+          }
+        }
         @keyframes fadeIn {
           from {
             opacity: 0;
