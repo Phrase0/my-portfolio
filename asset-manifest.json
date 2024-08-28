@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.be2f96a6.css",
-    "main.js": "/my-portfolio/static/js/main.b397b87c.js",
+    "main.js": "/my-portfolio/static/js/main.c7e0223a.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/culturist-2.jpg": "/my-portfolio/static/media/culturist-2.989b139dc02902c44ab2.jpg",
     "static/media/culturist-3.jpg": "/my-portfolio/static/media/culturist-3.6be8c1fcb595a5190a36.jpg",
@@ -15,11 +15,11 @@
     "static/media/CV_Iris Wu (Pei-Yun, Wu).pdf": "/my-portfolio/static/media/CV_Iris Wu (Pei-Yun, Wu).8c1a434a142b5bbbddc7.pdf",
     "index.html": "/my-portfolio/index.html",
     "main.be2f96a6.css.map": "/my-portfolio/static/css/main.be2f96a6.css.map",
-    "main.b397b87c.js.map": "/my-portfolio/static/js/main.b397b87c.js.map",
+    "main.c7e0223a.js.map": "/my-portfolio/static/js/main.c7e0223a.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be2f96a6.css",
-    "static/js/main.b397b87c.js"
+    "static/js/main.c7e0223a.js"
   ]
 }
