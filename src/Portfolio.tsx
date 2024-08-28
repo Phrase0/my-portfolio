@@ -81,7 +81,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
       name: "Clima",
       description:
         "Clima is a weather app that provides accurate and up-to-date climate information, allowing users to quickly check current conditions and forecasts for any location. It features a user-friendly interface with a dark mode option for easy viewing at night, ensuring you have all the weather details you need, day or night.",
-      skills: ["JSON Parsing", "Core Location", "Networking"],
+      skills: ["JSON Parsing", "Core Location", "MVC"],
       github: "https://github.com/Phrase0/Clima",
       media: [
         {
@@ -98,7 +98,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
       name: "FlashChat",
       description:
         "FlashChat is a straightforward chat application powered by Firebase on the backend. It enables users to engage in real-time one-on-one conversations with ease, offering a smooth and responsive chat experience. FlashChat is designed for quick and effortless communication, making it perfect for staying connected with friends.",
-      skills: ["FirebaseAuth", "Autolayout", "Cocoapod"],
+      skills: ["FirebaseAuth", "Autolayout", "Cocoapod", "CRUD"],
       github: "https://github.com/Phrase0/Flash-Chat",
       media: [
         {
@@ -184,7 +184,7 @@ Culturist is an app designed to enhance your art exhibition experiences by helpi
           </div>
           <div className="md:order-1 text-center md:text-left">
             <h1 className="text-3xl md:text-4xl font-bold mb-2 text-red-600">
-              Peiyun Wu
+              Peiyun(Iris) Wu
             </h1>
             <p className="text-lg md:text-xl mb-4 text-gray-600">
               iOS Developer | Agile | Creative Thinker
